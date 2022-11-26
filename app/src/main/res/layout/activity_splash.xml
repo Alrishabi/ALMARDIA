@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#fff"
+    tools:context=".SplashActivity">
+    <TextView
+        android:id="@+id/alnafs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/alnafs"
+        android:textColor="@color/teal_700"
+        android:textSize="@android:dimen/app_icon_size"
+        android:fontFamily="@font/mcs_way_s_i_adorned"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/almardya"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/almardya"
+        android:fontFamily="@font/mcs_way_s_i_adorned"
+        android:textStyle="bold"
+        android:textColor="@color/teal_700"
+        android:textSize="@android:dimen/app_icon_size"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/almardya2"
+        android:textStyle="bold|"
+        android:textColor="@color/teal_700"
+        android:textSize="@android:dimen/app_icon_size"
+        />
+</LinearLayout>

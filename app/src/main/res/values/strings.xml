@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ALNAFS ALMARDIA</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="alnafs">یَـٰۤأَیَّتُهَا ٱلنَّفۡسُ ٱلۡمُطۡمَىِٕنَّةࣰ ُ</string>
+    <string name="almardya">ٱرۡجِعِیۤ إِلَىٰ رَبِّكِ رَاضِیَة</string>
+    <string name="almardya2">مَّرۡضِیَّة</string>
+</resources>
