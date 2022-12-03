@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="alnafs">ٱلنَّفۡس</string>
-    <string name="almardya">ٱلۡمَّرۡضِیَّة</string>
+    <string name="alnafs">یَـٰۤأَیَّتُهَا ٱلنَّفۡسُ ٱلۡمُطۡمَىِٕنَّةࣰ ُ</string>
+    <string name="almardya">ٱرۡجِعِیۤ إِلَىٰ رَبِّكِ رَاضِیَة</string>
     <string name="almardya2">"مَّرۡضِیَّة "</string>
+    <string name="action_settings">الضبط</string>
+    <string name="action_share">مشاركه</string>
+    <string name="action_exit">خروج</string>
+    <string name="azkar_alsba7">آذكار الصباح</string>
+    <string name="donition">ذكاة المال</string>
+    <string name="alwdoo_alsalah">الوضوء والصلاة</string>
+    <string name="tasbeh">تسبيح</string>
+    <string name="azkar_almasjed">أذكار المسجد</string>
+    <string name="azkar_alestgaz">أذكار الاستيقاظ</string>
+    <string name="azkar_alsalah">أذكار الصلاة</string>
+    <string name="azkar_almasa">أذكار المساء</string>
+    <string name="zakat_almal">زكاة المال</string>
+    <string name="azkar_alnawm">أذكار النوم</string>
 </resources>

@@ -1,11 +1,12 @@
 
-package com.alnafs_almardia
+package com.alnafs_almardia.Activiteis
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
+import com.alnafs_almardia.R
 
 @Suppress("DEPRECATION")
 class SplashActivity : AppCompatActivity() {

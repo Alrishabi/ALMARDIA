@@ -13,9 +13,16 @@
         android:theme="@style/Theme.ALNAFS_ALMARDIA"
         tools:targetApi="31">
         <activity
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
-            android:name=".SplashActivity"
-            android:exported="true">
+            android:name=".Activiteis.MorningPrayersActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Activiteis.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,7 +34,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".Activiteis.MainActivity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"

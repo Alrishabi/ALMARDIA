@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="#fff"
-    tools:context=".SplashActivity">
+    tools:context=".Activiteis.SplashActivity">
     <TextView
         android:id="@+id/alnafs"
         android:layout_width="match_parent"
@@ -37,7 +37,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:text="@string/almardya2"
-        android:textStyle="bold|"
+        android:textStyle="bold"
         android:textColor="@color/teal_700"
         android:textSize="@android:dimen/app_icon_size"
         />

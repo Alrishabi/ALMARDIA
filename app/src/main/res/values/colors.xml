@@ -12,4 +12,9 @@
     <color name="light_blue_A200">#FF40C4FF</color>
     <color name="light_blue_A400">#FF00B0FF</color>
     <color name="black_overlay">#66000000</color>
+
+    <color name="gego">#ACBF58</color>
+    <color name="hg">#F8C74A</color>
+    <color name="kh">#F3B76E</color>
+    <color name="green_happy">#99E66A</color>
 </resources>
