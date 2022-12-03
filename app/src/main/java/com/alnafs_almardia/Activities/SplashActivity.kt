@@ -1,5 +1,5 @@
 
-package com.alnafs_almardia.Activiteis
+package com.alnafs_almardia.Activities
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler

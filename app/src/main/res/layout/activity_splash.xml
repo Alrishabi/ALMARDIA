@@ -7,7 +7,7 @@
     android:orientation="vertical"
     android:gravity="center"
     android:background="#fff"
-    tools:context=".Activiteis.SplashActivity">
+    tools:context=".Activities.SplashActivity">
     <TextView
         android:id="@+id/alnafs"
         android:layout_width="match_parent"
