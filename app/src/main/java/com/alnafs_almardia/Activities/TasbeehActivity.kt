@@ -1,4 +1,4 @@
-package com.alnafs_almardia.Activities
+package com.alnafs_almardia
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

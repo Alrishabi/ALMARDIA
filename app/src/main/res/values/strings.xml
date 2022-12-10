@@ -19,4 +19,8 @@
     <string name="azkar_almasa">أذكار المساء</string>
     <string name="zakat_almal">زكاة المال</string>
     <string name="azkar_alnawm">أذكار النوم</string>
+    <string name="language">Language</string>
+    <string name="action_contact_us">Contact us</string>
+    <string name="set_lang">set language</string>
+    <string name="prompt_lang_selection">Select language please!!</string>
 </resources>

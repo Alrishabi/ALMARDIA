@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="app_name">ۛٱلنَّفۡسُ ٱلۡمَّرۡضِیَّة</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="alnafs">یَـٰۤأَیَّتُهَا ٱلنَّفۡسُ ٱلۡمُطۡمَىِٕنَّةࣰ ُ</string>
     <string name="almardya">ٱرۡجِعِیۤ إِلَىٰ رَبِّكِ رَاضِیَة</string>
     <string name="almardya2">"مَّرۡضِیَّة "</string>
@@ -16,4 +20,8 @@
     <string name="azkar_almasa">أذكار المساء</string>
     <string name="zakat_almal">زكاة المال</string>
     <string name="azkar_alnawm">أذكار النوم</string>
+    <string name="language">اللغة</string>
+    <string name="action_contact_us">تواصل معنا</string>
+    <string name="set_lang">ضبط اللغة</string>
+    <string name="prompt_lang_selection">الرجاء إختيار لغة!!</string>
 </resources>

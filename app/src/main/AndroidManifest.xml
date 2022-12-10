@@ -13,70 +13,86 @@
         android:theme="@style/Theme.ALNAFS_ALMARDIA"
         tools:targetApi="31">
         <activity
-            android:name=".Activities.DonationActivity"
+            android:name=".Activities.ContactUsActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SettingActivity"
+            android:exported="false"
+            >
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DonationActivity"
             android:exported="false">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.AzkarAlnawomActivity"
+            android:name=".AzkarAlnawomActivity"
             android:exported="false"
-            android:parentActivityName=".Activities.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.AzkarAlestigazActivity"
+            android:name=".AzkarAlestigazActivity"
             android:exported="false"
-            android:parentActivityName=".Activities.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.AzkarAlmasjedActivity"
+            android:name=".AzkarAlmasjedActivity"
             android:exported="false"
-            android:parentActivityName=".Activities.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.TasbeehActivity"
+            android:name=".TasbeehActivity"
             android:exported="false"
-            android:parentActivityName=".Activities.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.AzkarAlmasaActivity"
+            android:name=".AzkarAlmasaActivity"
             android:exported="false"
-            android:parentActivityName=".Activities.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.AzkarAlsabahActivity"
+            android:name=".AzkarAlsabahActivity"
             android:exported="false"
-            android:parentActivityName=".Activities.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.AzkarAlsalahActivity"
+            android:name=".AzkarAlsalahActivity"
             android:exported="false"
-            android:parentActivityName=".Activities.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.SplashActivity"
+            android:name=".SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
@@ -90,7 +106,7 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".Activities.MainActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
