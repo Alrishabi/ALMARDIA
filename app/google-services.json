@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "263127727862",
+    "project_id": "mardia-1960",
+    "storage_bucket": "mardia-1960.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263127727862:android:db085f4f5ad1b7ca8136d7",
+        "android_client_info": {
+          "package_name": "com.alnafs_almardia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263127727862-07ehm5bejrsu32lr123sl8u8nlkjj58c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYcffqO7cX9p90VuPWeSPhFqDnhbL8J-M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263127727862-07ehm5bejrsu32lr123sl8u8nlkjj58c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -17,4 +17,8 @@
     <color name="hg">#F8C74A</color>
     <color name="kh">#F3B76E</color>
     <color name="green_happy">#99E66A</color>
+
+    <color name="red_happy">#FF5722</color>
+    <color name="blue_info">#03A9F4</color>
+
 </resources>

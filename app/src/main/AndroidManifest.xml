@@ -29,8 +29,9 @@
                 android:value="" />
         </activity>
         <activity
-            android:name=".DonationActivity"
-            android:exported="false">
+            android:name=".AdayaQuraniaActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

@@ -1,16 +1,17 @@
 <resources>
-    <string name="app_name">ALNAFS ALMARDIA</string>
+    <string name="app_name">ٱلۡمَّرۡضِیَّة</string>
     <string name="title_activity_splash">SplashActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="alnafs">یَـٰۤأَیَّتُهَا ٱلنَّفۡسُ ٱلۡمُطۡمَىِٕنَّةࣰ ُ</string>
     <string name="almardya">ٱرۡجِعِیۤ إِلَىٰ رَبِّكِ رَاضِیَة</string>
     <string name="almardya2">مَّرۡضِیَّة</string>
+    <string name="almardya3">((يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ ارْجِعِي إِلَى رَبِّكِ رَاضِيَةً مَرْضِيَّةً فَادْخُلِي فِي عِبَادِي وَادْخُلِي جَنَّتِي))</string>
     <string name="action_settings">Settings</string>
     <string name="action_share">Share</string>
     <string name="action_exit">Exit</string>
     <string name="azkar_alsba7">أذكار الصباح</string>
-    <string name="donition">ذكاة المال</string>
+    <string name="azkar_qurania">الْأدْعِيَةُ القرآنية</string>
     <string name="alwdoo_alsalah">الوضوء والصلاة</string>
     <string name="tasbeh">التسبيح</string>
     <string name="azkar_almasjed">أذكار المسجد</string>
@@ -23,4 +24,7 @@
     <string name="action_contact_us">Contact us</string>
     <string name="set_lang">set language</string>
     <string name="prompt_lang_selection">Select language please!!</string>
+    <string name="clear">Clear</string>
+    <string name="حديث_التسبيح">قَالَ رسول الله صلى الله عليه وسلم مَنْ قَالَ: «سُبْحَانَ اللَّهِ وَبِحَمْدِهِ فِي يَوْمٍ مِائَةَ مَرَّةٍ حُطَّتْ خَطَايَاهُ وَلَوْ كَانَتْ مِثْلَ زَبَدِ الْبَحْر»</string>
+    <string name="azkar_quran">الْأدْعِيَةُ القرآنية</string>
 </resources>

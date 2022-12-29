@@ -4,16 +4,239 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Activities.AzkarAlestigazActivity">
+    tools:context=".AzkarAlestigazActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/azkar_alestgaz"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textSize="35dp"
-        android:textStyle="bold"/>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="دُعَاءُ الذَّهَابِ إلَى المَسْجِدِ"
+                    android:textColor="@color/red_happy"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="الحَمْـدُ لِلّهِ الّذي أَحْـيانا بَعْـدَ ما أَماتَـنا وَإليه النُّـشور."
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="start"
+                        android:text="[آية الكرسى - البقرة 255]."
+                        android:textSize="15sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="end"
+                        android:text="مرة واحدة"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/info1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:padding="3dp"
+                        android:src="@drawable/ic_info" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="من قالها حين يصبح أجير من الجن حتى يمسى ومن قالها حين يمسى أجير من الجن حتى يصبح."
+                        android:textColor="@color/blue_info"
+                        android:textSize="15sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="دُعَاءُ الذَّهَابِ إلَى المَسْجِدِ"
+                    android:textColor="@color/red_happy"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="الحمدُ للهِ الذي عافاني في جَسَدي وَرَدّ عَليّ روحي وَأَذِنَ لي بِذِكْرِه."
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="start"
+                        android:text="[آية الكرسى - البقرة 255]."
+                        android:textSize="15sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="end"
+                        android:text="مرة واحدة"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/info1"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:padding="3dp"
+                        android:src="@drawable/ic_info" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="من قالها حين يصبح أجير من الجن حتى يمسى ومن قالها حين يمسى أجير من الجن حتى يصبح."
+                        android:textColor="@color/blue_info"
+                        android:textSize="15sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:elevation="25sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="دُعَاءُ دُخُولِ المَسْجِدِ"
+                    android:textColor="@color/red_happy"
+                    android:textSize="18sp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="لا إلهَ إلاّ اللّهُ وَحْـدَهُ لا شَـريكَ له، لهُ المُلـكُ ولهُ الحَمـد، وهوَ على كلّ شيءٍ قدير، سُـبْحانَ اللهِ، والحمْـدُ لله ، ولا إلهَ إلاّ اللهُ واللهُ أكبَر، وَلا حَولَ وَلا قوّة إلاّ باللّهِ العليّ العظيم. رَبِّ اغْفرْ لي."
+                    android:textSize="35sp"
+                    android:textStyle="bold" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_gravity="left"
+                        android:text="[سورة الاخلاص ٦٠٤]."
+                        android:textSize="15sp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="end"
+                        android:text="مرة واحدة"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+                <androidx.appcompat.widget.LinearLayoutCompat
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="3dp"
+                        android:src="@drawable/ic_info" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="من قالها حين يصبح وحين يمسى كفته من كل شىء (الإخلاص والمعوذتين). "
+                        android:textColor="@color/blue_info"
+                        android:textSize="15sp" />
+
+                </androidx.appcompat.widget.LinearLayoutCompat>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

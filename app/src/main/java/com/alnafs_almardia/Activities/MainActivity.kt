@@ -1,6 +1,5 @@
 package com.alnafs_almardia
 import android.content.Intent
-import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
@@ -39,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         startActivity(Intent(this, AzkarAlnawomActivity::class.java))
     }
     fun goToDonationActivity( view: View){
-        startActivity(Intent(this, DonationActivity::class.java))
+        startActivity(Intent(this, AdayaQuraniaActivity::class.java))
     }
     fun goToAzkarAlsalah(view: View){
         startActivity(Intent(this, AzkarAlsalahActivity::class.java))
