@@ -1,62 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".TasbeehActivity"
     android:orientation="vertical"
-    android:gravity="top"
     android:padding="10dp">
-    <ScrollView
+
+    <LinearLayout
+        android:id="@+id/LL_touch"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
-        <LinearLayout
+        android:layout_height="match_parent"
+        android:background="@drawable/tasbeeh_button_shap"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:gravity="center">
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:padding="10dp"
-                android:textSize="30sp"
-                android:textStyle="bold"
-                android:layout_marginTop="20dp"
-                android:gravity="center"
-                android:text="@string/حديث_التسبيح"/>
-            <TextView
-                android:id="@+id/tasbeeh_counter"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="40sp"
-                android:textStyle="bold"
-                android:layout_marginRight="29dp"
-                android:layout_gravity="right"
-                android:text="0"/>
-            <Button
-                android:id="@+id/tasbeeh_clear"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textSize="20sp"
-                android:textStyle="bold"
-                android:layout_gravity="left"
-                android:text="@string/clear"
-                android:background="@color/black_overlay"
-                android:layout_marginBottom="20dp"
-                />
-            <ImageButton
-                android:id="@+id/tasbeeh"
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:src="@color/purple_200"
-                android:layout_gravity="center"
-                />
-        </LinearLayout>
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/حديث_التسبيح"
+            android:textSize="30sp"
+            android:textStyle="bold" />
 
-    </ScrollView>
+        <TextView
+            android:id="@+id/tasbeeh_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="50sp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+        <Button
+            android:id="@+id/tasbeeh_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/tasbeeh_button_shap"
+            android:text="@string/clear"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+            />
+    </LinearLayout>
 
 
 
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

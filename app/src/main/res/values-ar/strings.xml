@@ -25,7 +25,9 @@
     <string name="action_contact_us">تواصل معنا</string>
     <string name="set_lang">ضبط اللغة</string>
     <string name="prompt_lang_selection">الرجاء إختيار لغة!!</string>
-    <string name="clear">Clear</string>
+    <string name="clear">مسح</string>
     <string name="حديث_التسبيح">قَالَ رسول الله صلى الله عليه وسلم مَنْ قَالَ: «سُبْحَانَ اللَّهِ وَبِحَمْدِهِ فِي يَوْمٍ مِائَةَ مَرَّةٍ حُطَّتْ خَطَايَاهُ وَلَوْ كَانَتْ مِثْلَ زَبَدِ الْبَحْر»</string>
     <string name="azkar_quran">الْأدْعِيَةُ القرآنية</string>
+    <string name="choose_email">Choose email</string>
+    <string name="email_exception">Email error</string>
 </resources>

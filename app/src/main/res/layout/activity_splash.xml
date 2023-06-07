@@ -1,65 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#fff"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="1dp"
-    android:paddingBottom="2dp"
     tools:context=".SplashActivity">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
         android:gravity="center"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/alnafs"
+        <VideoView
+            android:id="@+id/vv_splash"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="305dp"
             android:layout_gravity="center"
-            android:fontFamily="@font/mcs_way_s_i_adorned"
-            android:gravity="center"
-            android:text="@string/alnafs"
-            android:textColor="@color/teal_700"
-            android:textSize="@android:dimen/app_icon_size"
-            android:textStyle="bold" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/almardya"
+            android:id="@+id/version_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:fontFamily="@font/mcs_way_s_i_adorned"
+            android:layout_gravity="bottom"
             android:gravity="center"
-            android:text="@string/almardya"
+            android:text="version"
+            android:layout_marginBottom="10sp"
             android:textColor="@color/teal_700"
-            android:textSize="@android:dimen/app_icon_size"
-            android:textStyle="bold" />
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:gravity="center"
-            android:text="@string/almardya2"
-            android:textColor="@color/teal_700"
-            android:textSize="@android:dimen/app_icon_size"
-            android:textStyle="bold" />
-    </LinearLayout>
 
-    <TextView
-        android:id="@+id/version_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginBottom="8dp"
-        android:gravity="center"
-        android:textColor="@color/teal_700"
-        android:textSize="18sp"
-        android:textStyle="bold" />
 </LinearLayout>

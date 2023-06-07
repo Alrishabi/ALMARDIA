@@ -3,13 +3,16 @@ package com.alnafs_almardia
 import android.content.Intent
 import android.content.pm.PackageInfo
 import android.content.pm.PackageManager
+import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.util.Log
+import android.view.View
 import android.view.WindowManager
-import android.widget.Button
+import android.widget.MediaController
 import android.widget.TextView
+import android.widget.VideoView
 import androidx.appcompat.app.AppCompatActivity
 import com.alnafs_almardia.helpers.Zaytona
 import java.util.*
@@ -18,16 +21,32 @@ import java.util.*
  * Created by Musab on 27/11/2022.
  */
 
-
-
-
 class SplashActivity : AppCompatActivity() {
     lateinit var zaytona:Zaytona
     var pinfo: PackageInfo? = null
+    var vv_splash: VideoView?= null
+    var mediaControls: MediaController?=null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
         zaytona= Zaytona(this)
+        vv_splash = findViewById<View>(R.id.vv_splash) as VideoView
+
+
+       if (mediaControls == null) {
+           // creating an object of media controller class
+           mediaControls = MediaController(this)
+           // set the anchor view for the video view
+           mediaControls!!.setAnchorView(this.vv_splash)
+       }
+       // set the media controller for video view
+       vv_splash!!.setMediaController(mediaControls)
+       // set the absolute path of the video file which is going to be played
+       vv_splash!!.setVideoURI(Uri.parse("android.resource://"
+               + packageName + "/" + R.raw.mardia_splash))
+       vv_splash!!.requestFocus()
+       // starting the video
+       vv_splash!!.start()
 
         val version_name = findViewById<TextView>(R.id.version_name)
 
@@ -82,7 +101,7 @@ class SplashActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
-        }, 4000) // 3000 is the delayed time in milliseconds.
+        }, 6000) // 3000 is the delayed time in milliseconds.
 
     }
     fun getVersionName(): String? {
